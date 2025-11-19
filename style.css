@@ -1,8 +1,6 @@
-/* ==========================================
-   MODERN CLEAN BLUE-WHITE MEDICAL THEME CSS
-   ========================================== */
-
 /* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&family=Nunito:wght@400;600&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -62,7 +60,7 @@ h3 {
 
 /* TYPING TEXT */
 .typing-text {
-  font-size: 28px;
+  font-size: 26px;
   color: #003d80;
   white-space: nowrap;
   overflow: hidden;
@@ -920,4 +918,3 @@ section::after {
   background: #004c99;
   transform: translateY(-4px);
 }
-

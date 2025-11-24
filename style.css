@@ -1004,7 +1004,7 @@ section::after {
 
   /* Payment Button mobile size */
   .payment-btn {
-    width: 100% !important;
+    width: 70% !important;
     padding: 12px !important;
     font-size: 17px !important;
     border-radius: 8px !important;
@@ -1023,7 +1023,7 @@ section::after {
 
   /* Call Now button mobile fix */
   .contact-btn {
-    width: 100% !important;
+    width: 30% !important;
     padding: 12px !important;
     font-size: 17px !important;
   }

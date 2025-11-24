@@ -243,11 +243,19 @@
 <section class="contact reveal" id="contact">
   <h2>Enroll Now</h2>
 
-  <p><strong>Upcoming Webinar:</strong> Saturday, <strong>29 November 2025</strong> at <strong>4:00 PM</strong></p>
+  <!-- FREE WEBINAR DETAILS -->
+  <p style="font-size:18px; color:#003d80; margin-bottom:10px;">
+    🔥 <strong>FREE CPC Webinar</strong> – This Saturday,<br>
+    <strong>29 November 2025 at 4:00 PM</strong>
+  </p>
 
-  <p class="booking-note">This <strong>₹500 payment</strong> is only for <strong>booking your seat in advance.</strong></p>
+  <p class="booking-note" style="margin-top:10px;">
+    Webinar is completely <strong>FREE</strong>.  
+    You can join and learn first — then pay only if you want to book your seat.
+  </p>
 
-  <p class="course-fee">Total CPC Certification Training Fee: <strong>₹16,000</strong></p>
+  <p class="course-fee">Early Bird Seat Booking Fee: <strong>₹500</strong><br>
+  Total Course Fee: <strong>₹16,000</strong></p>
 
   <!-- ENROLL FORM -->
   <form action="https://formspree.io/f/mldrdpjw" method="POST" class="enroll-form">
@@ -263,21 +271,20 @@
 
     <label>Select Course*</label>
     <select name="course" required>
-      <option value="">-- Select Course --</option>
       <option value="CPC – Certified Professional Coder">CPC – Certified Professional Coder</option>
-      <option value="CCS – Certified Coding Specialist">CCS – Certified Coding Specialist</option>
-      <option value="Specialty Cross Training">Specialty Cross Training</option>
     </select>
 
-    <!-- Redirect after successful submission -->
+    <!-- After submission go to Razorpay ONLY for Early Bird Booking -->
     <input type="hidden" name="_redirect" value="https://rzp.io/rzp/PV060wl">
 
     <button type="submit" class="payment-btn">
-      Submit & Continue to Payment
+      Submit & Continue to Early Bird Booking
     </button>
   </form>
 
-  <p style="margin-top: 18px; color: #003d80;">Need help? You can contact us below:</p>
+  <p style="margin-top:18px; color:#003d80;">
+    Need help? Contact us:
+  </p>
 
   <div class="contact-numbers">
     <a href="tel:7758870518" class="contact-number">📞 7758870518</a>
